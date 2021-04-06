@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+}
+@font-face {
+font-family: "floydian";
+src: url("floyd.TTF");
+font-style: normal;
+font-weight: 100;
+}
+
+
+
+h1 {
+  text-shadow: 2px 2px #FF0000;
+  font-size: 5rem;
+  font-family: "floydian" ;
+  color:  #ffff;
+
+}
+
+footer {
+  text-shadow: 2px 2px #FF0000;
+  color: #ffff;
+  font-family:'floydian';
+}
+
+.S {
+ background-image:url("images/1.jpg");
+background-size: contain;
+
+
+}
+
+.Y {
+  background-image:url("images/2.jpg");
+  background-size: contain;
+
+}
+
+.D {
+
+  background-image:url("images/4.jpg");
+  background-size: contain;
+}
+
+.B {
+  background-image:url("images/3.jpg");
+  background-size: contain;
+}
+
+
+.set {
+  margin: 10% auto;
+
+
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 2px solid #404B69;
+  font-size: 3rem;
+  font-family: "floydian";
+  line-height: 2;
+  font-weight: 500;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 10px;
+
+}
